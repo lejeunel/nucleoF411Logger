@@ -1,0 +1,28 @@
+registers:
+{
+	CONFIG1 = 0x86;
+        CONFIG2 = 0x00;
+        CONFIG3 = 0xE4;
+	LOFF = 0x00;
+        CH1set = 0x80;
+	CH2set = 0x00;
+	CH3set = 0x00;
+        CH4set = 0x10;
+        CH5set = 0x10;
+        CH6set = 0x10;
+        CH7set = 0x10;
+        CH8set = 0x80;
+        RLD_SENSP = 0x06;
+        RLD_SENSN = 0x06;
+	LOFF_SENSP = 0x00;
+	LOFF_SENSN = 0x00;
+	LOFF_FLIP = 0x00;
+	LOFF_STATP = 0x00;
+	LOFF_STATN = 0x00;
+	GPIO = 0x00;
+	PACE = 0x00;
+	RESP = 0x00;
+        CONFIG4 = 0x00;
+        WCT1 = 0xFE;
+        WCT2 = 0xF6;
+};

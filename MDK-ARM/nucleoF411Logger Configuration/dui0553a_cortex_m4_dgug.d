@@ -1,0 +1,16 @@
+nucleof411logger configuration\dui0553a_cortex_m4_dgug.o: ..\Src\main.cpp
+nucleof411logger configuration\dui0553a_cortex_m4_dgug.o: ..\Src\daqADS1298.hpp
+nucleof411logger configuration\dui0553a_cortex_m4_dgug.o: ..\Src\daq.hpp
+nucleof411logger configuration\dui0553a_cortex_m4_dgug.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+nucleof411logger configuration\dui0553a_cortex_m4_dgug.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\vector
+nucleof411logger configuration\dui0553a_cortex_m4_dgug.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits
+nucleof411logger configuration\dui0553a_cortex_m4_dgug.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rw/_defs.h
+nucleof411logger configuration\dui0553a_cortex_m4_dgug.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rw/_config.h
+nucleof411logger configuration\dui0553a_cortex_m4_dgug.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rw/config.h
+nucleof411logger configuration\dui0553a_cortex_m4_dgug.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rw/_math.h
+nucleof411logger configuration\dui0553a_cortex_m4_dgug.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\cmath
+nucleof411logger configuration\dui0553a_cortex_m4_dgug.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+nucleof411logger configuration\dui0553a_cortex_m4_dgug.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\cfloat
+nucleof411logger configuration\dui0553a_cortex_m4_dgug.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\float.h
+nucleof411logger configuration\dui0553a_cortex_m4_dgug.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\climits
+nucleof411logger configuration\dui0553a_cortex_m4_dgug.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h

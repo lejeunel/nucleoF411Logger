@@ -1,0 +1,9 @@
+.\system_stm32f4xx.o: ..\Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+.\system_stm32f4xx.o: ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+.\system_stm32f4xx.o: ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h
+.\system_stm32f4xx.o: ..\Drivers\CMSIS\Include\core_cm4.h
+.\system_stm32f4xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\system_stm32f4xx.o: ..\Drivers\CMSIS\Include\core_cmInstr.h
+.\system_stm32f4xx.o: ..\Drivers\CMSIS\Include\core_cmFunc.h
+.\system_stm32f4xx.o: ..\Drivers\CMSIS\Include\core_cmSimd.h
+.\system_stm32f4xx.o: ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
