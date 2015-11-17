@@ -1,6 +1,0 @@
--c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32F4xx_HAL_Driver\Inc -I..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -I..\Middlewares\Third_Party\FatFs\src\drivers -I..\Middlewares\Third_Party\FatFs\src -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32F4xx\Include --C99 --cpp
--I C:\Users\krakapwa\Documents\nucleoF411Logger\nucleoF411Logger\MDK-ARM\RTE
--I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
--I C:\Keil_v5\ARM\CMSIS\Include
--D__UVISION_VERSION="515" -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE
--o "nucleof411logger configuration\stm32f4xx_hal_spi.o" --omf_browse "nucleof411logger configuration\stm32f4xx_hal_spi.crf" --depend "nucleof411logger configuration\stm32f4xx_hal_spi.d" "..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c"

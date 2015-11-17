@@ -54,7 +54,7 @@ uint8_t DaqADS1298::readReg(uint8_t address)
 		uint8_t dataIn[1];
 		uint8_t dataOut[3] = {0};
 		dataIn[0] = ADS1298_RREG+address;
-		HAL_SPI_TransmitReceive (spiHandle, dataIn, dataOut, 3, 0x1000);
+		HAL_SPI_TransmitReceive(spiHandle, dataIn, dataOut, 3, 0x1000);
 		return dataOut[2];
 
 }
@@ -140,7 +140,7 @@ void DaqADS1298::setup()
 		}
 		
 		/* Read ID register (testing) */
-		uint8_t dataOut;
+		uint8_t dataOut = {0};
 		dataOut = readReg(0);
 		
 		/* Read register (testing) */

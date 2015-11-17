@@ -21,17 +21,37 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.15.0_KEIL
 Dialog DLL:      TCM.DLL V1.14.5.0
  
 <h2>Project:</h2>
-C:\Users\krakapwa\Documents\nucleoF411Logger\nucleoF411Logger\MDK-ARM\nucleoF411Logger.uvprojx
-Project File Date:  11/05/2015
+C:\Users\krakapwa\Documents\nucleoF411Logger\MDK-ARM\nucleoF411Logger.uvprojx
+Project File Date:  11/16/2015
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
-Rebuild target 'nucleoF411Logger Configuration'
-compiling ff_gen_drv.c...
-compiling syscall.c...
-compiling sd_diskio.c...
-compiling ccsbcs.c...
-compiling ff.c...
-compiling diskio.c...
-compiling stm32f4xx_hal_pwr_ex.c...
-compiling stm32f4xx_hal_rcc.c...
+Build target 'nucleoF411Logger Configuration'
+compiling daqADS1298.cpp...
+..\Src\daqADS1298.hpp(23): warning:  #1300-D: setup inherits implicit virtual
+      void setup();
+..\Src\daqADS1298.hpp(24): warning:  #1300-D: initGPIO inherits implicit virtual
+                void initGPIO();
+..\Src\daqADS1298.hpp(25): warning:  #1300-D: getData inherits implicit virtual
+                void getData();
+..\Src\daqADS1298.hpp(32): warning:  #1300-D: getNbytes inherits implicit virtual
+      int getNbytes();
+..\Src\daqADS1298.hpp(33): warning:  #1300-D: getNchans inherits implicit virtual
+      int getNchans();
+..\Src\daqADS1298.cpp(131): warning:  #177-D: variable "tmp" was declared but never referenced
+                uint8_t tmp[1] = {0};
+..\Src\daqADS1298.cpp(143): warning:  #550-D: variable "dataOut" was set but never used
+                uint8_t dataOut = {0};
+..\Src\daqADS1298.cpp: 7 warnings, 0 errors
+linking...
+Program Size: Code=15094 RO-data=1886 RW-data=108 ZI-data=3156  
+"nucleoF411Logger Configuration\nucleoF411Logger Configuration.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\krakapwa\Documents\nucleoF411Logger\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>

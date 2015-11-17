@@ -8,8 +8,6 @@
 #define DEMCR           (*((volatile unsigned long *)(0xE000EDFC)))
 #define TRCENA          0x01000000
 
-#include "daqADS1298.hpp"
-
 Daq * myDaq;
 
 #endif // DAQ_H
